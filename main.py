@@ -10,7 +10,8 @@ from PIL import Image, ImageDraw, ImageFont
 from astrbot.api.event import filter, AstrMessageEvent
 from astrbot.api.star import Context, Star
 from astrbot.api import AstrBotConfig, logger
-from astrbot.api.message_components import Image as MsgImage, MessageChain
+from astrbot.api.event import MessageChain
+from astrbot.api.message_components import Image as MsgImage
 
 # ------------------------------------------------------------
 # 常量定义
