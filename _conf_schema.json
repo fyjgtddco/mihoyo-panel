@@ -1,0 +1,7 @@
+{
+  "proxy": {
+    "description": "HTTP 代理地址，例如 http://127.0.0.1:7890，留空则不使用代理",
+    "type": "string",
+    "default": ""
+  }
+}
