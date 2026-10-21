@@ -1,7 +1,26 @@
 {
-  "proxy": {
-    "description": "HTTP 代理地址，例如 http://127.0.0.1:7890，留空则不使用代理",
-    "type": "string",
-    "default": ""
+  "cache_ttl": {
+    "description": "图片缓存时长（秒）",
+    "type": "int",
+    "default": 180,
+    "hint": "同一张面板图在这个时间内会复用，不重新请求 enka。发 /更新面板 可强制刷新。"
+  },
+  "cooldown": {
+    "description": "同一用户同一游戏的请求冷却（秒）",
+    "type": "float",
+    "default": 3,
+    "hint": "防止刷屏。设为 0 关闭冷却。"
+  },
+  "max_characters": {
+    "description": "角色列表图最多显示的角色数",
+    "type": "int",
+    "default": 12,
+    "hint": "超出的角色会在底部提示剩余数量。"
+  },
+  "show_estimate": {
+    "description": "是否显示期望伤害估算",
+    "type": "bool",
+    "default": true,
+    "hint": "本地估算值，仅供参考，不代表真实伤害。"
   }
 }

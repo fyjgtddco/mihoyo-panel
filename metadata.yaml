@@ -1,5 +1,7 @@
-name: mihoyo_panel
-desc: 米哈游游戏角色面板查询插件，支持原神/星穹铁道/绝区零
-version: 1.0.0
-author: YourName
-repo: https://github.com/yourname/mihoyo-panel
+name: miyoyo_panel
+display_name: 米游社面板
+desc: 支持原神 / 崩铁 / 绝区零。白底主题，含角色列表/详情、圣遗物逐件评分与排行榜、战绩卡、伤害计算、角色对比、养成周报、角色收集度排行与滚动态面板。纯指令触发，不经过 AI。
+version: 4.0.0
+author: dsh
+repo: https://github.com/fyjgtddco/mihoyo-panel
+astrbot_version: ">=4.20"
